@@ -1,4 +1,4 @@
-# What’s in this overlay / 추가·변경된 기능
+﻿# What’s in this overlay / 추가·변경된 기능
 
 For end users. You do **not** need to read `FILELIST.md` unless you care which files were patched.  
 일반 유저용입니다. 파일 목록이 궁금할 때만 `FILELIST.md`를 보세요.
