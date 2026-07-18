@@ -48,6 +48,7 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Data\ModFoulborn.lua` | Foulborn mod data |
 | `Data\ModFoulbornMap.lua` | Unique ↔ Foulborn map |
 | `Data\EnchantmentTalisman.lua` | Talisman enchants |
+| `Data\ModJewelAbyss.lua` | 3.29 Abyssal Jewel affix updates |
 | `Data\Bases\amulet.lua` | Talisman bases (new/legacy) |
 | `Data\Global.lua` | Related global tweaks |
 | `Data\Uniques\jewel.lua` | Includes `3.29 Temp: …` jewels |

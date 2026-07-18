@@ -1,4 +1,4 @@
-﻿# What’s in this overlay / 추가·변경된 기능
+# What’s in this overlay / 추가·변경된 기능
 
 For end users. You do **not** need to read `FILELIST.md` unless you care which files were patched.  
 일반 유저용입니다. 파일 목록이 궁금할 때만 `FILELIST.md`를 보세요.
@@ -26,6 +26,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 | **Skill gem tables past / below L20** | **Partial** | Often only L20 was updated from notes; L1–19 and L21+ growth may be wrong or flat. |
 | **Ascendancy tree edits** | **Partial** | Some text/numbers changed from notes; **new node positions / full reworks** are not real layout data. |
 | **Talisman enchant pool** (`Data/EnchantmentTalisman.lua`) | **Curated / mostly author-made** | Most entries were **hand-filled for PoB preview**, not a confirmed full GGG enchant table. Expect large differences vs live. Treat as a placeholder pool so the Talisman enchant UI/system can be clicked through. |
+| **Abyssal Jewel affix ranges** (`Data/ModJewelAbyss.lua`) | **Patch-based** | 3.29 Abyss jewel tier changes + removed Abyssal-monster / “not hit recently” mods; Impale no longer on Hypnotic/Ghastly. Lower tiers scaled from noted top tiers (exact mid-tier brackets may differ slightly from live). |
 
 ### Closer to public sources (still unofficial)
 
@@ -60,6 +61,9 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 - Some tree/unique wording updates.
 - **`3.29 Temp: …` jewels** = placeholders only.
 
+### Abyssal jewels
+- Affix ranges / removed mods updated from the Abyss Revamp notes (`ModJewelAbyss.lua`).
+
 ### Not included
 - Full new ascendancy layouts, Luminary, Pact-style exceptional gems, perfect full-level skill curves.
 
@@ -86,10 +90,11 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 ### 소켓 / 젬
 - 기본 White, 색 매칭 시 퀄 +10%
 
-### 탈리스만 / 스킬 / 트리
+### 탈리스만 / 스킬 / 트리 / 심연 주얼
 - 탈리스만 인챈트 풀 = **대부분 임의/추측** (플레이스홀더에 가깝음)
 - Eyes of the Greatwolf 관련 처리 (**부분**)
 - 스킬·트리 문구 (**근사 / 부분**)
 - `3.29 Temp:` 주얼 = **플레이스홀더**
+- **심연 주얼** 모드 수치·제거 모드 = 패치노트 반영
 
 공식 PoB 3.29가 나오면 이 overlay는 지우세요.

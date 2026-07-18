@@ -23,7 +23,7 @@ $zipName = "PoB-3.29-Preview-overlay-$mode-$stamp.zip"
 $zipPath = Join-Path $OutDir $zipName
 
 $files = @(
-	# A — features / calc
+	# A ??features / calc
 	"Classes\ItemsTab.lua",
 	"Classes\Item.lua",
 	"Classes\Tooltip.lua",
@@ -38,12 +38,13 @@ $files = @(
 	"Modules\ItemTools.lua",
 	"Assets\legionicon.png",
 
-	# B — content
+	# B ??content
 	"Data\Vestigial.lua",
 	"Data\FoulbornReplacements.lua",
 	"Data\ModFoulborn.lua",
 	"Data\ModFoulbornMap.lua",
 	"Data\EnchantmentTalisman.lua",
+		"Data\ModJewelAbyss.lua",
 	"Data\Bases\amulet.lua",
 	"Data\Global.lua",
 	"Data\Uniques\jewel.lua",
