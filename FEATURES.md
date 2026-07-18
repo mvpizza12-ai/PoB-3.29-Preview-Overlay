@@ -27,6 +27,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 | **Ascendancy tree edits** | **Partial** | Some text/numbers changed from notes; **new node positions / full reworks** are not real layout data. |
 | **Talisman enchant pool** (`Data/EnchantmentTalisman.lua`) | **Curated / mostly author-made** | Most entries were **hand-filled for PoB preview**, not a confirmed full GGG enchant table. Expect large differences vs live. Treat as a placeholder pool so the Talisman enchant UI/system can be clicked through. |
 | **Abyssal Jewel affix ranges** (`Data/ModJewelAbyss.lua`) | **Patch-based** | 3.29 Abyss jewel tier changes + removed Abyssal-monster / “not hit recently” mods; Impale no longer on Hypnotic/Ghastly. Lower tiers scaled from noted top tiers (exact mid-tier brackets may differ slightly from live). |
+| **Vestigial pool balance tweaks** (`Data/Vestigial.lua`) | **Curated** | Author rebalance: Belly 20% life; Skin Loyal/Lords signatures (not 6-link); Shadowstitch corrupt-item life/ES at half; Heretic's Veil curse reservation; Kalisa crit-after-mana half; March +2 socketed aura; Doedre's Scorn curse lines added. |
 | **Regular jewel Mana Cost Efficiency** (`Data/ModJewel.lua`) | **Patch-based** | `(10-15)% increased Mana Cost Efficiency` prefix (affix name `Thrifty` is placeholder until live naming is known). |
 | **Cluster notables Openness / Daring Ideas** (`TreeData/*/tree.lua`) | **Patch-based** | Openness +15% Mana Cost Efficiency; Daring Ideas +25% Cost Efficiency of Attacks. |
 
