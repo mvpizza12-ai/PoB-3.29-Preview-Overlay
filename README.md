@@ -8,8 +8,13 @@ English first, Korean below. / 영어 먼저, 한국어는 아래.
 ### Start here / 여기서 시작
 - **What features were added?** → [`FEATURES.md`](FEATURES.md)  
   (Vestigial, Foulborn, Cost Efficiency, sockets, …)
+- **What’s curated vs patch-based?** → same file, section **Data confidence**  
+  (Vestigial pool, temp jewels, skill curves, … are marked clearly)
 - **Which files are patched?** → [`FILELIST.md`](FILELIST.md)  
   (for packagers / contributors)
+
+> **Important:** The **Vestigial implicit pool** and several magnitudes are **author-curated house rules**, not a confirmed GGG datamine. Read FEATURES before treating numbers as truth.  
+> **중요:** Vestigial 속성 풀·일부 수치는 **제작자가 임의로 정리한 것**입니다. 확정 데이터가 아닙니다.
 
 ---
 

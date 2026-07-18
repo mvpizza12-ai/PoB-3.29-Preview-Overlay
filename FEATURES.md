@@ -5,70 +5,88 @@ For end users. You do **not** need to read `FILELIST.md` unless you care which f
 
 ---
 
-## English
+## Data confidence / 데이터 신뢰도 (read this)
 
-### Item tools (Items tab)
-- **Vestigial…** — Apply / remove Legion Vestigial implicits (from Curse of the Allflame / Enshroud-style sources). Shows a Legion header icon when applied.
-- **Foulborn…** — Pick up to **2** Foulborn unique mod replacements (auto-replaces the original lines). Title becomes `Foulborn …` and uses the Foulborn header icon.
+Nothing here is an official GGG / official PoB dump. Treat everything as a **community preview**.
 
-### New / updated systems (calcs)
-- **Cost Efficiency** — “reduced cost” style tree/unique mods treated as cost efficiency (like reservation efficiency).
-- **Bifurcate Crit** — Assassin-style spell crit that rolls twice (excess crit multi can apply twice). Also available as a Config toggle for testing.
-- **Fanaticism** — Uses **75% less** skill cost (3.29 wording), not “reduced”.
-- **Communion** — Reworked Minion Pact support (extra spell phys per permanent minion + cost multiplier). Config: permanent minion count.
-- **Spirit Infusion** — Occultist stacks via Config (when the temp jewel / flag is present).
+| Tag | Meaning |
+|-----|---------|
+| **Patch-based** | Taken from public 3.29 patch notes (or clear system rules). Numbers may still be incomplete (e.g. only gem level 20). |
+| **Curated / house rules** | Assembled or tuned by the pack author. **Not** a confirmed full in-game table. Expect differences when the league launches. |
+| **Placeholder** | Temporary PoB-only hacks for testing (fake jewels, Config stand-ins). Not real item drops. |
 
-### Sockets & gems
-- New sockets default to **White**.
-- Matching gem colour to a coloured socket grants **+10% Quality** (White does not).
+### Explicitly curated / author-made (not confirmed full data)
 
-### Talismans
-- Talisman enchantment pool support.
-- **Eyes of the Greatwolf** related handling (dual enchants / magnitude where implemented).
+| Feature | Tag | What was invented or hand-tuned |
+|---------|-----|----------------------------------|
+| **Vestigial implicit pool** (`Data/Vestigial.lua`) | **Curated** | Source uniques + mod lines + many **nerfed magnitudes** (e.g. merit-only / ~half on strong lines). Rules like “no Replica/Foulborn sources”, “skip pure demerits” are **author house rules**, not a verified GGG datamine. The real Vestigial pool may differ a lot. |
+| **Vestigial / Legion header icon** | **Placeholder art** | Custom / edited icon, not an official PoB asset rip. |
+| **`3.29 Temp: …` jewels** | **Placeholder** | Fake jewels so you can test ascendancy ideas (e.g. Unhallowed Rite / Spirit Infusion, Instruments of Justice) **before** real tree nodes exist. |
+| **Communion added-damage scaling** | **Curated approx** | Patch describes the rework; per-level numbers in PoB are approximated. |
+| **Skill gem tables past / below L20** | **Partial** | Often only L20 was updated from notes; L1–19 and L21+ growth may be wrong or flat. |
+| **Ascendancy tree edits** | **Partial** | Some text/numbers changed from notes; **new node positions / full reworks** are not real layout data. |
+| **Talisman enchant list** | **Partial / curated** | Enough to use the system in PoB; not guaranteed complete vs live. |
 
-### Skills & tree (approximate)
-- Many active/support gem numbers updated from 3.29 patch notes (mostly **gem level 20**).
-- Some tree / unique text updated for Cost Efficiency and a few ascendancy lines.
-- Temporary jewels named `3.29 Temp: …` exist for testing ascendancy effects that don’t have real tree nodes yet.
+### Closer to public sources (still unofficial)
 
-### Not included (or only temporary)
-- Full new ascendancy layouts / Reliquarian shuffle coordinates  
-- Luminary mercenary system  
-- Pact of Beidat / Ghorr / K’tash (and similar big new gems)  
-- Perfect L1–40 skill damage curves  
-
-This is an **unofficial preview**. Replace with official PoB 3.29 data when it ships.
+| Feature | Tag | Notes |
+|---------|-----|--------|
+| **Foulborn replace catalog** | Patch/wiki-based + tools | Built from wiki / existing Foulborn mod maps where possible. UI limit of **2 replacements** matches observed trade reality, but catalog completeness isn’t guaranteed. |
+| **Cost Efficiency calc** | Patch-based | System change from notes; which tree lines were converted may not be 100% exhaustive. |
+| **Bifurcate Crit / Fanaticism less cost** | Patch-based | Mechanics implemented from note wording; edge cases may differ in live. |
+| **White sockets + colour quality** | Patch-based | As described in notes. |
+| **Foulborn / Vestigial UI** | Tooling | The buttons are pack features; they apply the data pools above. |
 
 ---
 
-## 한국어
+## English — feature list
+
+### Item tools (Items tab)
+- **Vestigial…** — Apply / remove Vestigial implicits. (**Pool = curated**, see above.) Legion header icon when applied.
+- **Foulborn…** — Up to **2** Foulborn unique mod replacements. Title becomes `Foulborn …`.
+
+### Calcs / systems
+- **Cost Efficiency**, **Bifurcate Crit**, **Fanaticism 75% less Cost**, **Communion**, **Spirit Infusion** (often via Config / temp jewel).
+
+### Sockets & gems
+- Default **White** sockets; matching coloured socket → gem **+10% Quality**.
+
+### Talismans
+- Enchant pool + Eyes of the Greatwolf-related handling (**partial**).
+
+### Skills & tree
+- Many gem numbers from notes (**mostly L20**).
+- Some tree/unique wording updates.
+- **`3.29 Temp: …` jewels** = placeholders only.
+
+### Not included
+- Full new ascendancy layouts, Luminary, Pact-style exceptional gems, perfect full-level skill curves.
+
+**Replace this overlay with official PoB 3.29 data when it ships.**
+
+---
+
+## 한국어 — 기능 목록
+
+### 데이터 신뢰도 (중요)
+- **Vestigial 속성 풀**은 패치에 “있다”는 개념만 있고, **들어간 유니크/수치/너프 규칙(메리트만·절반 등)은 제작자가 임의로 정리한 것**입니다. 라이브와 다를 수 있습니다.
+- **`3.29 Temp:` 주얼**은 전직 노드가 없을 때 테스트하려고 넣은 **가짜 아이템**입니다.
+- **스킬 수치**는 패치노트(주로 20레벨) 기준 근사이며, 전 레벨 곡선은 보장하지 않습니다.
+- **Foulborn 목록**은 위키/기존 데이터에 가깝지만 완전하진 않을 수 있고, UI **최대 2개** 제한은 관측 기준입니다.
 
 ### 아이템 도구 (Items 탭)
-- **Vestigial…** — 군단 Vestigial 임플리싯 적용/제거. 적용 시 Legion 헤더 아이콘 표시.
-- **Foulborn…** — Foulborn 유니크 모드 교체 **최대 2개**. 제목이 `Foulborn …`로 바뀌고 Foulborn 아이콘 표시.
+- **Vestigial…** — Vestigial 임플리싯 적용/제거 (**풀 = 임의 정리**)
+- **Foulborn…** — Foulborn 교체 최대 2개
 
 ### 계산 / 시스템
-- **Cost Efficiency** — 코스트 감소류를 효율 방식으로 계산.
-- **Bifurcate Crit** — 스펠 크리 두 번 굴림(초과 배율 중첩 가능). Config로도 테스트 가능.
-- **Fanaticism** — 스킬 코스트 **75% less** (3.29).
-- **Communion** — 구 Minion Pact 리워크 (영구 소환수당 스펠 추가 물리 등). Config에 소환수 수.
-- **Spirit Infusion** — 스택을 Config로 설정 (임시 주얼/플래그 있을 때).
+- Cost Efficiency, Bifurcate Crit, Fanaticism 75% less, Communion, Spirit Infusion(Config/임시 주얼)
 
 ### 소켓 / 젬
-- 새 소켓 기본 **White**.
-- 소켓 색과 젬 색이 맞으면 **퀄리티 +10%** (White는 보너스 없음).
+- 기본 White, 색 매칭 시 퀄 +10%
 
-### 탈리스만
-- 탈리스만 인챈트 풀.
-- **Eyes of the Greatwolf** 관련 처리.
+### 탈리스만 / 스킬 / 트리
+- 탈리스만·Eyes 관련 (**부분**)
+- 스킬·트리 문구 (**근사 / 부분**)
+- `3.29 Temp:` 주얼 = **플레이스홀더**
 
-### 스킬 / 트리 (근사)
-- 패치노트 기준 스킬·서포트 수치 다수 반영 (주로 **젬 20레벨**).
-- Cost Efficiency·일부 전직 문구 반영.
-- 테스트용 `3.29 Temp: …` 주얼 있음.
-
-### 없는 것 / 임시뿐인 것
-- 전직 트리 전체 재배치, Luminary, Pact 계열 대형 신규 젬 등  
-- 스킬 전 레벨 완벽한 데미지 곡선  
-
-**비공식 프리뷰**입니다. 공식 PoB 3.29가 나오면 이 overlay는 지우세요.
+공식 PoB 3.29가 나오면 이 overlay는 지우세요.
