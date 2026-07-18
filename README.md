@@ -13,8 +13,8 @@ English first, Korean below. / 영어 먼저, 한국어는 아래.
 - **Which files are patched?** → [`FILELIST.md`](FILELIST.md)  
   (for packagers / contributors)
 
-> **Important:** The **Vestigial implicit pool** and several magnitudes are **author-curated house rules**, not a confirmed GGG datamine. Read FEATURES before treating numbers as truth.  
-> **중요:** Vestigial 속성 풀·일부 수치는 **제작자가 임의로 정리한 것**입니다. 확정 데이터가 아닙니다.
+> **Important:** The **Vestigial implicit pool**, **Talisman enchant pool**, and several magnitudes are **author-curated / mostly guessed**, not confirmed GGG datamines. Read FEATURES before treating numbers as truth.  
+> **중요:** Vestigial 속성 풀·**탈리스만 인챈트 풀**·일부 수치는 **제작자가 임의로 정리/추측한 것**입니다. 확정 데이터가 아닙니다.
 
 ---
 

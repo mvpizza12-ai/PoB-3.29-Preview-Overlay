@@ -25,7 +25,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 | **Communion added-damage scaling** | **Curated approx** | Patch describes the rework; per-level numbers in PoB are approximated. |
 | **Skill gem tables past / below L20** | **Partial** | Often only L20 was updated from notes; L1–19 and L21+ growth may be wrong or flat. |
 | **Ascendancy tree edits** | **Partial** | Some text/numbers changed from notes; **new node positions / full reworks** are not real layout data. |
-| **Talisman enchant list** | **Partial / curated** | Enough to use the system in PoB; not guaranteed complete vs live. |
+| **Talisman enchant pool** (`Data/EnchantmentTalisman.lua`) | **Curated / mostly author-made** | Most entries were **hand-filled for PoB preview**, not a confirmed full GGG enchant table. Expect large differences vs live. Treat as a placeholder pool so the Talisman enchant UI/system can be clicked through. |
 
 ### Closer to public sources (still unofficial)
 
@@ -52,7 +52,8 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 - Default **White** sockets; matching coloured socket → gem **+10% Quality**.
 
 ### Talismans
-- Enchant pool + Eyes of the Greatwolf-related handling (**partial**).
+- Enchant pool + Eyes of the Greatwolf-related handling.  
+  **Enchant list is mostly author-curated / placeholder** — not confirmed live data.
 
 ### Skills & tree
 - Many gem numbers from notes (**mostly L20**).
@@ -70,6 +71,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 
 ### 데이터 신뢰도 (중요)
 - **Vestigial 속성 풀**은 패치에 “있다”는 개념만 있고, **들어간 유니크/수치/너프 규칙(메리트만·절반 등)은 제작자가 임의로 정리한 것**입니다. 라이브와 다를 수 있습니다.
+- **탈리스만 인챈트 풀**도 대부분 **제작자가 PoB 미리보기용으로 임의로 넣은 것**(일부만 공개 영상/노트, 나머지는 대칭 추측)입니다. 확정된 인게임 전체 테이블이 아닙니다.
 - **`3.29 Temp:` 주얼**은 전직 노드가 없을 때 테스트하려고 넣은 **가짜 아이템**입니다.
 - **스킬 수치**는 패치노트(주로 20레벨) 기준 근사이며, 전 레벨 곡선은 보장하지 않습니다.
 - **Foulborn 목록**은 위키/기존 데이터에 가깝지만 완전하진 않을 수 있고, UI **최대 2개** 제한은 관측 기준입니다.
@@ -85,7 +87,8 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 - 기본 White, 색 매칭 시 퀄 +10%
 
 ### 탈리스만 / 스킬 / 트리
-- 탈리스만·Eyes 관련 (**부분**)
+- 탈리스만 인챈트 풀 = **대부분 임의/추측** (플레이스홀더에 가깝음)
+- Eyes of the Greatwolf 관련 처리 (**부분**)
 - 스킬·트리 문구 (**근사 / 부분**)
 - `3.29 Temp:` 주얼 = **플레이스홀더**
 
