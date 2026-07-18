@@ -27,6 +27,8 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 | **Ascendancy tree edits** | **Partial** | Some text/numbers changed from notes; **new node positions / full reworks** are not real layout data. |
 | **Talisman enchant pool** (`Data/EnchantmentTalisman.lua`) | **Curated / mostly author-made** | Most entries were **hand-filled for PoB preview**, not a confirmed full GGG enchant table. Expect large differences vs live. Treat as a placeholder pool so the Talisman enchant UI/system can be clicked through. |
 | **Abyssal Jewel affix ranges** (`Data/ModJewelAbyss.lua`) | **Patch-based** | 3.29 Abyss jewel tier changes + removed Abyssal-monster / “not hit recently” mods; Impale no longer on Hypnotic/Ghastly. Lower tiers scaled from noted top tiers (exact mid-tier brackets may differ slightly from live). |
+| **Regular jewel Mana Cost Efficiency** (`Data/ModJewel.lua`) | **Patch-based** | `(10-15)% increased Mana Cost Efficiency` prefix (affix name `Thrifty` is placeholder until live naming is known). |
+| **Cluster notables Openness / Daring Ideas** (`TreeData/*/tree.lua`) | **Patch-based** | Openness +15% Mana Cost Efficiency; Daring Ideas +25% Cost Efficiency of Attacks. |
 
 ### Closer to public sources (still unofficial)
 
@@ -64,7 +66,12 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 ### Abyssal jewels
 - Affix ranges / removed mods updated from the Abyss Revamp notes (`ModJewelAbyss.lua`).
 
+### Regular / cluster jewels
+- Regular jewels: `(10-15)% increased Mana Cost Efficiency` rollable affix.
+- Cluster notables: **Openness** (+15% Mana Cost Efficiency), **Daring Ideas** (+25% Cost Efficiency of Attacks).
+
 ### Not included
+- New corruption implicits (add manually if needed).
 - Full new ascendancy layouts, Luminary, Pact-style exceptional gems, perfect full-level skill curves.
 
 **Replace this overlay with official PoB 3.29 data when it ships.**
@@ -90,11 +97,13 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 ### 소켓 / 젬
 - 기본 White, 색 매칭 시 퀄 +10%
 
-### 탈리스만 / 스킬 / 트리 / 심연 주얼
+### 탈리스만 / 스킬 / 트리 / 심연·일반·클러스터 주얼
 - 탈리스만 인챈트 풀 = **대부분 임의/추측** (플레이스홀더에 가깝음)
 - Eyes of the Greatwolf 관련 처리 (**부분**)
 - 스킬·트리 문구 (**근사 / 부분**)
 - `3.29 Temp:` 주얼 = **플레이스홀더**
 - **심연 주얼** 모드 수치·제거 모드 = 패치노트 반영
+- **일반 주얼** `(10-15)% Mana Cost Efficiency`, 클러스터 **Openness** / **Daring Ideas** = 패치노트 반영
+- **신규 타락 임플릿** = 미포함 (수동 추가)
 
 공식 PoB 3.29가 나오면 이 overlay는 지우세요.

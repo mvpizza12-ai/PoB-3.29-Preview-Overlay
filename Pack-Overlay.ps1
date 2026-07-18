@@ -45,6 +45,7 @@ $files = @(
 	"Data\ModFoulbornMap.lua",
 	"Data\EnchantmentTalisman.lua",
 		"Data\ModJewelAbyss.lua",
+	"Data\ModJewel.lua",
 	"Data\Bases\amulet.lua",
 	"Data\Global.lua",
 	"Data\Uniques\jewel.lua",

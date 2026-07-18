@@ -49,6 +49,7 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Data\ModFoulbornMap.lua` | Unique ↔ Foulborn map |
 | `Data\EnchantmentTalisman.lua` | Talisman enchants |
 | `Data\ModJewelAbyss.lua` | 3.29 Abyssal Jewel affix updates |
+| `Data\ModJewel.lua` | Regular jewel `(10-15)% Mana Cost Efficiency` |
 | `Data\Bases\amulet.lua` | Talisman bases (new/legacy) |
 | `Data\Global.lua` | Related global tweaks |
 | `Data\Uniques\jewel.lua` | Includes `3.29 Temp: …` jewels |
@@ -65,8 +66,8 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Data\Uniques\axe.lua` | Changes |
 | `Data\Uniques\sword.lua` | Changes |
 | `Data\Uniques\quiver.lua` | Changes |
-| `TreeData\3_27\tree.lua` | Cost Efficiency / some ascendancy text |
-| `TreeData\3_28\tree.lua` | Cost Efficiency / some ascendancy text |
+| `TreeData\3_27\tree.lua` | Cost Efficiency / Openness / Daring Ideas / some ascendancy text |
+| `TreeData\3_28\tree.lua` | Cost Efficiency / Openness / Daring Ideas / some ascendancy text |
 
 ---
 
