@@ -82,11 +82,11 @@ if (Test-Path -LiteralPath $stage) {
 New-Item -ItemType Directory -Path $stage -Force | Out-Null
 
 # Docs + one-click installer at zip root
-Copy-Item -LiteralPath (Join-Path $PSScriptRoot "README.md") -Destination (Join-Path $stage "README.md") -Force
-Copy-Item -LiteralPath (Join-Path $PSScriptRoot "FILELIST.md") -Destination (Join-Path $stage "FILELIST.md") -Force
-Copy-Item -LiteralPath (Join-Path $PSScriptRoot "Install.bat") -Destination (Join-Path $stage "Install.bat") -Force
-if (Test-Path -LiteralPath (Join-Path $PSScriptRoot "GITHUB_RELEASE.md")) {
-	Copy-Item -LiteralPath (Join-Path $PSScriptRoot "GITHUB_RELEASE.md") -Destination (Join-Path $stage "GITHUB_RELEASE.md") -Force
+foreach ($doc in @("README.md", "FEATURES.md", "FILELIST.md", "Install.bat", "GITHUB_RELEASE.md")) {
+	$srcDoc = Join-Path $PSScriptRoot $doc
+	if (Test-Path -LiteralPath $srcDoc) {
+		Copy-Item -LiteralPath $srcDoc -Destination (Join-Path $stage $doc) -Force
+	}
 }
 
 $missing = New-Object System.Collections.Generic.List[string]
