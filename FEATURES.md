@@ -28,6 +28,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 | **Reliquarian 3.29 unique options** (`TreeData/3_28/tree.lua`) | **Patch-based / text swap** | Replaced Mirage Reliquarian choice nodes with Allflame unique-inspired options (Elevore, Vaal Caress, etc.). Same Display hubs / choice UI; old icons kept. Trigger skills (Raise Spiders, Suspend in Time, Molten Burst, Greater Harbinger) may not fully simulate in PoB. |
 | **Talisman enchant pool** (`Data/EnchantmentTalisman.lua`) | **Curated / mostly author-made** | Most entries were **hand-filled for PoB preview**, not a confirmed full GGG enchant table. Expect large differences vs live. Treat as a placeholder pool so the Talisman enchant UI/system can be clicked through. |
 | **Abyssal Jewel affix ranges** (`Data/ModJewelAbyss.lua`) | **Patch-based** | 3.29 Abyss jewel tier changes + removed Abyssal-monster / “not hit recently” mods; Impale no longer on Hypnotic/Ghastly. Lower tiers scaled from noted top tiers (exact mid-tier brackets may differ slightly from live). |
+| **Caster weapon / base item rolls** (`Data/ModItem.lua`, `Bases/wand|ring|dagger.lua`) | **Patch-based approx** | Added-to-Spells flats (1H/staff), staff spell/ele % to ~200, hybrid spell+mana, spell crit floor 40% + staff 1.5x set; Moonstone cast speed; dagger crit implicits; Demon's Horn/Opal/Tornado → spell-damage implicits (exact % ranges approximated). Mid-tiers scaled from noted tops. |
 | **Vestigial pool balance tweaks** (`Data/Vestigial.lua`) | **Curated** | Author-curated pool + rebalance. Includes Soul Mantle / Covenant / Expedition's End / Thrillsteel / Ravenous Passion / Triad Grip / Shroud of the Lightless / Vertex / Snakebite / Font of Thunder and related lines; magnitudes often half or chase-kept. Not a confirmed live table. |
 | **Regular jewel Mana Cost Efficiency** (`Data/ModJewel.lua`) | **Patch-based** | `(10-15)% increased Mana Cost Efficiency` prefix (affix name `Thrifty` is placeholder until live naming is known). |
 | **Cluster notables Openness / Daring Ideas** (`TreeData/*/tree.lua`) | **Patch-based** | Openness +15% Mana Cost Efficiency; Daring Ideas +25% Cost Efficiency of Attacks. |
@@ -68,6 +69,13 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 ### Abyssal jewels
 - Affix ranges / removed mods updated from the Abyss Revamp notes (`ModJewelAbyss.lua`).
 
+### Caster weapons / bases (Item Changes)
+- Added Damage to Spells prefixes buffed (1H + staff; cold/lightning/influenced/delve scaled from fire tops).
+- Staff increased Spell/Fire/Cold/Lightning Damage prefixes up to ~200%.
+- Hybrid Spell+Mana tops ~49% (1H) / ~86% (staff).
+- Spell crit on 1H starts at 40%; staff uses a higher (×1.5) set.
+- Moonstone Ring: cast speed implicit; dagger global crit implicits up; Demon's Horn / Opal / Tornado Wand: spell damage implicits (approx).
+
 ### Regular / cluster jewels
 - Regular jewels: `(10-15)% increased Mana Cost Efficiency` rollable affix.
 - Cluster notables: **Openness** (+15% Mana Cost Efficiency), **Daring Ideas** (+25% Cost Efficiency of Attacks).
@@ -81,10 +89,23 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 | **Stormblood** | **poedb** | Crit flask charge + all crit damage can Shock/Sap; 50% less duration. |
 | **The Crustacean's Call** | **Teaser approx** | Crab Totem support stub (Spell Totem-like); spell dmg / totem duration ranges are placeholders until live numbers. |
 
-### Not included
-- New corruption implicits (add manually if needed).
-- Full new ascendancy layouts, Luminary, Pact-style exceptional gems, perfect full-level skill curves.
-- Subsume consume/retain jewel crafting UI.
+### Item Changes (3.29 preview — ModItem)
+- **New corruption implicits** (`V329*`): aura reservation efficiency on rings, Purity of Elements aura effect, max/min charges, max resists, keystones on shields/boots, belt immunities, mana cost efficiency, attributes, socketed gem quality/levels, DoT multi, crit multi, ground immunities, curses on hit, L10 supports, explode on kill, 1H cast speed, staff spell damage, etc. Weights/affix names are **approx**.
+- Existing corrupt updates: specific-aura effect **amulet-only 20–30%**; ring **Global Damage**; belt life **6–10%**; caster staff cast **22–28%**; removed aura/curse grants / stationary armour / moving evasion / shield block% / area&proj taken / helmet burning.
+- Staff **+ spell gem level**: extra tiers; damage-type gems up to **+4** (lower tiers earlier/common).
+- Caster weapons: Fire/Cold/Lightning **% suffixes** weight 0 (jewellery kept). Stun Threshold off sceptre/caster staff; Stun Duration only mace/warstaff/sword/axe/bow.
+
+### Unique Item Changes (3.29 dump)
+- Official **Unique Item Changes** (~45 named rebalances) are in `Data\Uniques\*.lua` as `Pre 3.29.0` / `Current` variants (plus Foulborn cost-efficiency / Rathpith lines in `FoulbornReplacements.lua`).
+- Notes: `_unique_dump_329_notes.txt` (share folder + under `Data\Uniques\`).
+- **New drop uniques** with preview entries: Spinesnatch, Subsume the Source, Seablister, Stormblood, The Crustacean’s Call. Other announced new uniques without full public rolls are still missing.
+
+### Not included (still missing vs patch notes — important)
+- Remaining **new** uniques beyond the curated 5 (no full public stat dumps yet).
+- Pact exceptional gems; Luminary; Atlas Anomalies UI.
+- Synthesis/Harvest/Beastcraft economy changes (mostly non-PoB).
+- Perfect full-level skill curves; Subsume consume/retain jewel crafting UI.
+- Crafting-bench removal of ele-% suffixes (ModItem roll pool only for now).
 
 **Replace this overlay with official PoB 3.29 data when it ships.**
 
@@ -111,12 +132,16 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 
 ### 탈리스만 / 스킬 / 트리 / 심연·일반·클러스터 주얼
 - 탈리스만 인챈트 풀 = **대부분 임의/추측** (플레이스홀더에 가깝음)
+- **구(pre-3.29) 탈리스만 베이스** = 제작 목록에서 숨김(`hidden`); 데이터는 Standard/import용으로 유지. 3.29 신규 탈리스만만 목록에 표시
 - Eyes of the Greatwolf 관련 처리 (**부분**)
 - 스킬·트리 문구 (**근사 / 부분**)
 - `3.29 Temp:` 주얼 = **플레이스홀더**
 - **심연 주얼** 모드 수치·제거 모드 = 패치노트 반영
+- **캐스터 무기/베이스** = 주문 플렛·지팡이 스펠%·하이브리드·스펠크리·문스톤/단검/일부 완드 임플릿 + 속성% 서픽스 제거·스턴 롤 변경 (**중간티어·완드%는 근사**)
+- **지팡이 +주문 젬레벨** = 추가 티어, 속성별 최대 **+4**
+- **신규 타락 임플릿 대부분** = `ModItem` `V329*` + 기존 타락 조정 (**웨이트/일부 문구 근사**)
 - **일반 주얼** `(10-15)% Mana Cost Efficiency`, 클러스터 **Openness** / **Daring Ideas** = 패치노트 반영
-- **신규 유니크(프리뷰)**: Spinesnatch / **Subsume the Source**(`Subsume...`: 심연 주얼 모드 풀에서 최대 4개·중복 가능, 채택 수만큼 어비설 소켓 감소, 주얼 효과 0, 동일 모드 툴팁 합산) / Seablister / Stormblood / The Crustacean's Call(스킬 스텁·일부 티저 수치)
-- **신규 타락 임플릿** = 미포함 (수동 추가)
+- **Unique Item Changes 덤프**: 패치에 이름 나온 기존 유니크 리밸런스 대부분 (`Pre 3.29.0`/`Current`) + Foulborn 관련 정리
+- **신규 유니크(프리뷰)**: Spinesnatch / **Subsume the Source**(`Subsume...`) / Seablister / Stormblood / The Crustacean's Call — 그 외 신규 유니크·Pact/Luminary 등 = 미포함
 
 공식 PoB 3.29가 나오면 이 overlay는 지우세요.

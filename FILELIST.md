@@ -50,7 +50,14 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Data\EnchantmentTalisman.lua` | Talisman enchants |
 | `Data\ModJewelAbyss.lua` | 3.29 Abyssal Jewel affix updates |
 | `Data\ModJewel.lua` | Regular jewel `(10-15)% Mana Cost Efficiency` |
+| `Data\ModItem.lua` | Item mods part 1 (split — Lua 65536 limit); includes caster/stun edits |
+| `Data\ModItemPart2.lua` | Item mods part 2 (merged in Data.lua) |
+| `Data\ModItem329.lua` | 3.29 corruption implicits (`V329*`) |
+| `Modules\Data.lua` | Merges `ModItemPart2` + `ModItem329` into `itemMods.Item` |
 | `Data\Bases\amulet.lua` | Talisman bases (new/legacy) |
+| `Data\Bases\wand.lua` | Demon's Horn / Opal / Tornado spell-damage implicits (approx) |
+| `Data\Bases\ring.lua` | Moonstone cast speed implicit |
+| `Data\Bases\dagger.lua` | Global crit chance implicits up |
 | `Data\Global.lua` | Related global tweaks |
 | `Data\Uniques\jewel.lua` | Includes `3.29 Temp: …` jewels |
 | `Data\Uniques\amulet.lua` | Unique / talisman numbers |
