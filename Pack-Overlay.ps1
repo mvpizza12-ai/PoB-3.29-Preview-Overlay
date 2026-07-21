@@ -60,6 +60,7 @@ $files = @(
 	"Data\Uniques\wand.lua",
 	"Data\Uniques\shield.lua",
 	"Data\Uniques\axe.lua",
+	"Data\Uniques\flask.lua",
 	"Data\Uniques\sword.lua",
 	"Data\Uniques\quiver.lua",
 	"TreeData\3_27\tree.lua",

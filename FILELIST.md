@@ -23,8 +23,8 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 
 | File | Notes |
 |------|--------|
-| `Classes\ItemsTab.lua` | Vestigial / Foulborn UI, Test Jewel slot, socket UI |
-| `Classes\Item.lua` | vestigial/foulborn flags, talisman / Eyes, default White sockets |
+| `Classes\ItemsTab.lua` | Vestigial / Foulborn / Subsume UI, Test Jewel slot, socket UI |
+| `Classes\Item.lua` | vestigial/foulborn flags, talisman / Eyes, Spinesnatch abyss locals, default White sockets |
 | `Classes\Tooltip.lua` | Legion / Foulborn header icons |
 | `Classes\GemSelectControl.lua` | Socket colour +10% Quality display, etc. |
 | `Modules\Data.lua` | Load Vestigial / FoulbornReplacements; Vestigial base copies |
@@ -32,9 +32,9 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Modules\CalcOffence.lua` | Bifurcate Crit, Cost Efficiency |
 | `Modules\CalcPerform.lua` | Fanaticism 75% less Cost |
 | `Modules\CalcSections.lua` | Cost Efficiency breakdown UI |
-| `Modules\CalcSetup.lua` | Socket colour quality bonus, etc. |
+| `Modules\CalcSetup.lua` | Socket colour quality bonus, Spinesnatch abyss weapon locals, etc. |
 | `Modules\ConfigOptions.lua` | Spirit Infusion / Bifurcate / Communion / Fanaticism |
-| `Modules\ItemTools.lua` | Related helpers |
+| `Modules\ItemTools.lua` | Related helpers (incl. abyss jewel weapon-local apply) |
 | `Assets\legionicon.png` | Vestigial header icon |
 
 ---
@@ -57,13 +57,14 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Data\Uniques\body.lua` | Unique numbers |
 | `Data\Uniques\boots.lua` | Unique numbers |
 | `Data\Uniques\gloves.lua` | Cost Efficiency, etc. |
-| `Data\Uniques\helmet.lua` | Cost Efficiency, etc. |
+| `Data\Uniques\helmet.lua` | Subsume the Source, Cost Efficiency, etc. |
 | `Data\Uniques\mace.lua` | Unique numbers |
 | `Data\Uniques\ring.lua` | Cost Efficiency, etc. |
-| `Data\Uniques\staff.lua` | Caster uniques, etc. |
+| `Data\Uniques\staff.lua` | The Crustacean's Call, caster uniques, etc. |
 | `Data\Uniques\wand.lua` | Caster uniques, etc. |
-| `Data\Uniques\shield.lua` | Unique numbers |
-| `Data\Uniques\axe.lua` | Changes |
+| `Data\Uniques\shield.lua` | Seablister, etc. |
+| `Data\Uniques\axe.lua` | Spinesnatch, etc. |
+| `Data\Uniques\flask.lua` | Stormblood, etc. |
 | `Data\Uniques\sword.lua` | Changes |
 | `Data\Uniques\quiver.lua` | Changes |
 | `TreeData\3_27\tree.lua` | Cost Efficiency / Openness / Daring Ideas / some ascendancy text |
