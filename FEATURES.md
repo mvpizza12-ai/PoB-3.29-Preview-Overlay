@@ -76,7 +76,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 | Unique | Tag | Notes |
 |--------|-----|--------|
 | **Spinesnatch** (Fleshripper) | **poedb** | 6 Abyssal Sockets; per socketed Searching/Hypnotic/Murderous → **weapon-local** AS/crit/phys (calc + item tooltip header); Ghastly → minion Impale (global). |
-| **Subsume the Source** (Faithful Helmet) | **Teaser approx** | **Subsume...** UI: pick up to **4** mods from abyss jewel affix pool (best tier/group, deduped). Retained count consumes abyssal sockets (`4 - N` left). Socketed jewels grant **no** effect. `(150-200)% Magnitudes` scales retained mods only. |
+| **Subsume the Source** (Faithful Helmet) | **Teaser approx** | **Subsume...** UI: pick up to **4** mods from abyss jewel affix pool (best tier/group, deduped; duplicates allowed). Retained count consumes abyssal sockets (`4 - N` left). Socketed jewels grant **no** effect. `(150-200)% Magnitudes` scales retained mods only. Tooltip **sums identical retained mods** into one line. |
 | **Seablister** | **poedb** | Stats from poedb; **Savage Barnacle** is a skill stub (granted, limited calc). |
 | **Stormblood** | **poedb** | Crit flask charge + all crit damage can Shock/Sap; 50% less duration. |
 | **The Crustacean's Call** | **Teaser approx** | Crab Totem support stub (Spell Totem-like); spell dmg / totem duration ranges are placeholders until live numbers. |
@@ -116,7 +116,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 - `3.29 Temp:` 주얼 = **플레이스홀더**
 - **심연 주얼** 모드 수치·제거 모드 = 패치노트 반영
 - **일반 주얼** `(10-15)% Mana Cost Efficiency`, 클러스터 **Openness** / **Daring Ideas** = 패치노트 반영
-- **신규 유니크(프리뷰)**: Spinesnatch / **Subsume the Source**(`Subsume...`: 심연 주얼 모드 풀에서 최대 4개, 채택 수만큼 어비설 소켓 감소, 주얼 효과 0) / Seablister / Stormblood / The Crustacean's Call(스킬 스텁·일부 티저 수치)
+- **신규 유니크(프리뷰)**: Spinesnatch / **Subsume the Source**(`Subsume...`: 심연 주얼 모드 풀에서 최대 4개·중복 가능, 채택 수만큼 어비설 소켓 감소, 주얼 효과 0, 동일 모드 툴팁 합산) / Seablister / Stormblood / The Crustacean's Call(스킬 스텁·일부 티저 수치)
 - **신규 타락 임플릿** = 미포함 (수동 추가)
 
 공식 PoB 3.29가 나오면 이 overlay는 지우세요.
