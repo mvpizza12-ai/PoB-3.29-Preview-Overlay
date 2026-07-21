@@ -23,7 +23,7 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 
 | File | Notes |
 |------|--------|
-| `Classes\ItemsTab.lua` | Vestigial / Foulborn / Subsume UI, Test Jewel slot, socket UI |
+| `Classes\ItemsTab.lua` | Volatile Vaal / Vestigial / Foulborn / Subsume UI, Test Jewel slot, socket UI |
 | `Classes\Item.lua` | vestigial/foulborn flags, talisman / Eyes, Spinesnatch abyss locals, default White sockets |
 | `Classes\Tooltip.lua` | Legion / Foulborn header icons |
 | `Classes\GemSelectControl.lua` | Socket colour +10% Quality display, etc. |
@@ -34,8 +34,10 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Modules\CalcSections.lua` | Cost Efficiency breakdown UI |
 | `Modules\CalcSetup.lua` | Socket colour quality bonus, Spinesnatch abyss weapon locals, etc. |
 | `Modules\ConfigOptions.lua` | Spirit Infusion / Bifurcate / Communion / Fanaticism |
-| `Modules\ItemTools.lua` | Related helpers (incl. abyss jewel weapon-local apply) |
-| `Assets\legionicon.png` | Vestigial header icon |
+| `Modules\ItemTools.lua` | Volatile Vaal range expand helpers; abyss jewel weapon-local apply |
+| `Assets\legionicon.png` | Vestigial header + row-2 button icon |
+| `Assets\BreachIcon.png` | Foulborn header + row-2 button icon |
+| `Assets\volatilevaalicon.png` | Volatile Vaal row-2 button icon |
 
 ---
 

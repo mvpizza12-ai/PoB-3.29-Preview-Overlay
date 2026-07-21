@@ -37,6 +37,8 @@ $files = @(
 	"Modules\ConfigOptions.lua",
 	"Modules\ItemTools.lua",
 	"Assets\legionicon.png",
+	"Assets\BreachIcon.png",
+	"Assets\volatilevaalicon.png",
 
 	# B ??content
 	"Data\Vestigial.lua",

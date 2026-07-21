@@ -48,6 +48,8 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 ## English — feature list
 
 ### Item tools (Items tab)
+- Button rows: **Enchant / Corrupt / Add Implicit** then **Foulborn / Vestigial / Volatile Vaal** (icons on the second row).
+- **Volatile Vaal…** — 3.28+ Volatile Vaal Orb helper: expand unique/relic explicit mod ranges to the **0.78x-1.22x** envelope (nearest rounding, in-game orange preview), optionally max-roll, mark **Corrupted**. Optional follow-up Corrupt… for implicits. Some unscaleable lines are skipped by name match (not perfect).
 - **Vestigial…** — Apply / remove Vestigial implicits. (**Pool = curated**, see above.) Legion header icon when applied.
 - **Foulborn…** — Up to **2** Foulborn unique mod replacements. Title becomes `Foulborn …`.
 
@@ -121,6 +123,8 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 - **Foulborn 목록**은 위키/기존 데이터에 가깝지만 완전하진 않을 수 있고, UI **최대 2개** 제한은 관측 기준입니다.
 
 ### 아이템 도구 (Items 탭)
+- 버튼 배치: **인챈트 / 커럽트 / Add Implicit** 다음 줄 **Foulborn / Vestigial / Volatile Vaal** (2번째 줄에 아이콘)
+- **Volatile Vaal…** — 3.28+ 폭발성 바알 오브: 유니크/유물 explicit 범위를 **0.78x~1.22x** 엔벨로프로 확장(반올림, 인게임 주황 미리보기와 동일 개념) 후 **Corrupted**. 최대 롤·이어서 Corrupt…(임플릿) 옵션. 스케일 불가 모드는 이름 매칭으로 일부만 스킵(완전하진 않음).
 - **Vestigial…** — Vestigial 임플리싯 적용/제거 (**풀 = 임의 정리**)
 - **Foulborn…** — Foulborn 교체 최대 2개
 
