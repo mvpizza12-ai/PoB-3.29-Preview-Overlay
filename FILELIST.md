@@ -28,12 +28,12 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Classes\Tooltip.lua` | Legion / Foulborn header icons |
 | `Classes\GemSelectControl.lua` | Socket colour +10% Quality display, etc. |
 | `Modules\Data.lua` | Load Vestigial / FoulbornReplacements; Vestigial base copies |
-| `Modules\ModParser.lua` | Cost Efficiency, Bifurcate, Spirit Infusion, Vestigial, … |
-| `Modules\CalcOffence.lua` | Bifurcate Crit, Cost Efficiency |
+| `Modules\ModParser.lua` | Cost Efficiency, Bifurcate, Spirit Infusion, Vestigial, Plume config visibility flag |
+| `Modules\CalcOffence.lua` | Bifurcate Crit, Cost Efficiency, Plume of Pursuit + Bifurcate final-hit `2M-1` |
 | `Modules\CalcPerform.lua` | Fanaticism 75% less Cost |
 | `Modules\CalcSections.lua` | Cost Efficiency breakdown UI |
 | `Modules\CalcSetup.lua` | Socket colour quality bonus, Spinesnatch abyss weapon locals, etc. |
-| `Modules\ConfigOptions.lua` | Spirit Infusion / Bifurcate / Communion / Fanaticism; charge colors / alt-charge labels / tooltips |
+| `Modules\ConfigOptions.lua` | Spirit Infusion / Bifurcate / Communion / Fanaticism; charge colors / alt-charge labels; Plume Repeat Mode |
 | `Classes\ConfigTab.lua` | Charge Max readout (right of checkbox); labelFunc for alt charges |
 | `Modules\ItemTools.lua` | Volatile Vaal range expand helpers; abyss jewel weapon-local apply |
 | `Assets\legionicon.png` | Vestigial header + row-2 button icon |
