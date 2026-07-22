@@ -33,7 +33,8 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Modules\CalcPerform.lua` | Fanaticism 75% less Cost |
 | `Modules\CalcSections.lua` | Cost Efficiency breakdown UI |
 | `Modules\CalcSetup.lua` | Socket colour quality bonus, Spinesnatch abyss weapon locals, etc. |
-| `Modules\ConfigOptions.lua` | Spirit Infusion / Bifurcate / Communion / Fanaticism |
+| `Modules\ConfigOptions.lua` | Spirit Infusion / Bifurcate / Communion / Fanaticism; charge colors / alt-charge labels / tooltips |
+| `Classes\ConfigTab.lua` | Charge Max readout (right of checkbox); labelFunc for alt charges |
 | `Modules\ItemTools.lua` | Volatile Vaal range expand helpers; abyss jewel weapon-local apply |
 | `Assets\legionicon.png` | Vestigial header + row-2 button icon |
 | `Assets\BreachIcon.png` | Foulborn header + row-2 button icon |

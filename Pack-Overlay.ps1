@@ -35,6 +35,7 @@ $files = @(
 	"Modules\CalcSections.lua",
 	"Modules\CalcSetup.lua",
 	"Modules\ConfigOptions.lua",
+	"Classes\ConfigTab.lua",
 	"Modules\ItemTools.lua",
 	"Assets\legionicon.png",
 	"Assets\BreachIcon.png",

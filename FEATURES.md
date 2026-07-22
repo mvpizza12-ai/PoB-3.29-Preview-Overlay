@@ -55,6 +55,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 
 ### Calcs / systems
 - **Cost Efficiency**, **Bifurcate Crit**, **Fanaticism 75% less Cost**, **Communion**, **Spirit Infusion** (often via Config / temp jewel).
+- **Config charge UI (v0.1.10):** Power/Frenzy/Endurance labels use Int/Dex/Str colors; checkbox shows **Max N** on the right; hover tooltips for charge effects; Graven-style convert → **Absorption / Affliction / Brutal** rename (same colors).
 
 ### Sockets & gems
 - Default **White** sockets; matching coloured socket → gem **+10% Quality**.
@@ -131,6 +132,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 
 ### 계산 / 시스템
 - Cost Efficiency, Bifurcate Crit, Fanaticism 75% less, Communion, Spirit Infusion(Config/임시 주얼)
+- **컨피그 차지 UI (v0.1.10):** Power/Frenzy/Endurance 색(지/민/힘), 체크 오른쪽 Max, 호버 효과 툴팁, 변환 시 Absorption/Affliction/Brutal 표시
 
 ### 소켓 / 젬
 - 기본 White, 색 매칭 시 퀄 +10%
