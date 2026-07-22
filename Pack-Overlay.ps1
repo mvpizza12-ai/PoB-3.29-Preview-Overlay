@@ -83,7 +83,8 @@ if (-not $Lite) {
 		"Data\Skills\sup_str.lua",
 		"Data\Skills\sup_dex.lua",
 		"Data\Skills\sup_int.lua",
-		"Data\Skills\other.lua"
+		"Data\Skills\other.lua",
+		"Data\SkillStatMap.lua"
 	)
 }
 

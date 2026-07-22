@@ -92,6 +92,7 @@ Paths are relative to: `%AppData%\Path of Building Community\`
 | `Data\Skills\sup_dex.lua` |
 | `Data\Skills\sup_int.lua` |
 | `Data\Skills\other.lua` |
+| `Data\SkillStatMap.lua` | Ward CDR 400% cap (Cast on Ward Break), related skill stat maps |
 
 ---
 

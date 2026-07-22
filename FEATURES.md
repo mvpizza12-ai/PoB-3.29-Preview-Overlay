@@ -64,7 +64,8 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
   **Enchant list is mostly author-curated / placeholder** — not confirmed live data.
 
 ### Skills & tree
-- Many gem numbers from notes (**mostly L20**).
+- Many gem numbers from notes (**mostly L20**; mid-level curves may be approximate).
+- **3.29 skill pass (v0.1.9):** Bodyswap life%/AoE; cold gems **25% freeze**; Freezing Pulse / Winter Orb / ED of Wickedness / Soulrend of Reaping projectile scaling; Incinerate stages; Void Sphere / Voltaxic conversion; Vaal Ice Nova / Firestorm; Cremation family; Galvanic Field; quality redesigns; Cast on Ward Break 400% CDR cap; mine cost multipliers; Spark alts / Ice Spear of Splitting / Lightning Conduit of the Heavens / Rolling Magma / supports (Unleash, CwC, Ballista, Companionship, etc.). L20 ADE re-checked vs patch list.
 - Some tree/unique wording updates.
 - **`3.29 Temp: …` jewels** = placeholders only.
 
@@ -139,6 +140,7 @@ Nothing here is an official GGG / official PoB dump. Treat everything as a **com
 - **구(pre-3.29) 탈리스만 베이스** = 제작 목록에서 숨김(`hidden`); 데이터는 Standard/import용으로 유지. 3.29 신규 탈리스만만 목록에 표시
 - Eyes of the Greatwolf 관련 처리 (**부분**)
 - 스킬·트리 문구 (**근사 / 부분**)
+- **3.29 스킬 패스 (v0.1.9):** 바디스왑, 동결 25%, FP/WO/ED/Soulrend 프로젝타일, Incinerate/Void/Voltaxic/Vaal/Cremation/Galvanic, 퀄·서포트·L20 ADE 등 패치노트 대비 재반영 (중간 레벨 커브는 근사일 수 있음)
 - `3.29 Temp:` 주얼 = **플레이스홀더**
 - **심연 주얼** 모드 수치·제거 모드 = 패치노트 반영
 - **캐스터 무기/베이스** = 주문 플렛·지팡이 스펠%·하이브리드·스펠크리·문스톤/단검/일부 완드 임플릿 + 속성% 서픽스 제거·스턴 롤 변경 (**중간티어·완드%는 근사**)
